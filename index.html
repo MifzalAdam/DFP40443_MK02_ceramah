@@ -8,21 +8,37 @@
 <body>
 
 <div class="container">
-    <h1>Ceramah Pembangunan Web Profesional</h1>
 
-    <p><strong>Penceramah:</strong> En. Ahmad Zaki</p>
-    <p><strong>Kepakaran:</strong> Web Development & UI/UX</p>
+    <!-- HERO -->
+    <div class="hero">
+        <h1>Ceramah Pembangunan Web Profesional</h1>
+        <p>Naikkan kemahiran web anda ke tahap industri</p>
+    </div>
 
-    <p><strong>Sinopsis:</strong> Ceramah ini memberi pendedahan tentang pembangunan laman web moden.</p>
+    <!-- PENCERAMAH -->
+    <div class="speaker">
+        <img src="penceramah.jpg" alt="Penceramah">
+        <div class="speaker-info">
+            <h2>En. Ahmad Zaki</h2>
+            <p class="title">Pensyarah Kanan Web Development</p>
+            <p>
+                Berpengalaman lebih 10 tahun dalam pembangunan sistem web,
+                UI/UX dan teknologi frontend & backend moden.
+            </p>
+        </div>
+    </div>
 
-    <p><strong>Tarikh:</strong> 10 Mei 2026</p>
-    <p><strong>Masa:</strong> 9.00 pagi – 4.00 petang</p>
-    <p><strong>Lokasi:</strong> Dewan Kuliah Utama</p>
-
-    <p><strong>Yuran:</strong> RM 2,500.00 / slot</p>
+    <!-- INFO -->
+    <div class="info">
+        <p><strong>📅 Tarikh:</strong> 10 Mei 2026</p>
+        <p><strong>⏰ Masa:</strong> 9.00 pagi – 4.00 petang</p>
+        <p><strong>📍 Lokasi:</strong> Dewan Kuliah Utama</p>
+        <p class="price">💰 Yuran: RM 2,500.00 / slot</p>
+    </div>
 
     <hr>
 
+    <!-- BORANG -->
     <h2>Borang Pendaftaran</h2>
 
     <form action="pengesahan.php" method="POST" enctype="multipart/form-data">
@@ -50,12 +66,13 @@
         <label>Bukti Pembayaran</label>
         <input type="file" name="resit" required>
 
-        <label>
+        <label class="checkbox">
             <input type="checkbox" required> Saya bersetuju dengan terma & syarat
         </label>
 
-        <button type="submit">Hantar</button>
+        <button type="submit">Daftar Sekarang</button>
     </form>
+
 </div>
 
 </body>
