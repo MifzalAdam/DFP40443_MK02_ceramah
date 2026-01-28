@@ -44,8 +44,8 @@ $jumlah = $harga_unit * $slot;
         }
 
         table th {
-            background: #007bff;
-            color: #fff;
+            background: #fff;
+            color: black;
             font-weight: normal;
         }
 
