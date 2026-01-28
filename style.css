@@ -1,3 +1,4 @@
+/* BODY & CONTAINER */
 body {
     font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(120deg, #e0eafc, #cfdef3);
@@ -53,7 +54,38 @@ body {
     margin: 5px 0;
 }
 
-/* INFO */
+/* INFO CERAMAH */
+.ceramah-info {
+    background: #f0f8ff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.ceramah-info h2 {
+    color: #007bff;
+    margin-bottom: 12px;
+}
+
+.ceramah-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ceramah-info ul li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.ceramah-info ul li::before {
+    content: "📌";
+    position: absolute;
+    left: 0;
+}
+
+/* INFO PERCUMA */
 .info p {
     margin: 6px 0;
 }
@@ -100,4 +132,12 @@ button:hover {
 
 hr {
     margin: 30px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .speaker {
+        flex-direction: column;
+        text-align: center;
+    }
 }
